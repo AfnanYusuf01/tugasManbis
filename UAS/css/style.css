@@ -1,0 +1,213 @@
+/* CSS (styles.css) */
+/* ... (your existing styles) */
+html {
+  scroll-behavior: smooth;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar style */
+.navbar {
+  border-bottom: 2px solid #ddd;
+}
+
+/* Brand style */
+.brand-text {
+  color: black;
+}
+
+/* Nav link style */
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #444;
+  text-decoration: underline;
+}
+
+/* Search input style */
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid #000;
+  margin-right: -40px;
+}
+
+/* Search button style */
+.btn-search {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: #000;
+  color: white;
+  font-weight: bold;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-search:hover {
+  background: #333;
+}
+
+
+/* Hero Carousel Style */
+.hero-section {
+  background: url('https://previews.123rf.com/images/melpomen/melpomen1904/melpomen190400451/120500029-wifi-concept-with-blurred-city-abstract-lights-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  padding: 98px;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.hero-caption {
+  font-family: 'Arial', sans-serif;
+  color: #FFD700; /* Warna kuning */
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/* Button Style */
+.btn-dark {
+  background-color: #343a40;
+  color: #FFD700; /* Warna kuning */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 25px;
+}
+
+.btn-dark:hover {
+  background-color: #212529;
+}
+
+/* Text Style */
+.lead {
+  font-size: 1.2rem;
+  color: #d3d3d3;
+  line-height: 1.5;
+}
+
+/* Remove underline on link hover */
+a:hover {
+  text-decoration: none;
+}
+
+/* Contact Section Style */
+.contact {
+  padding: 50px 0;
+}
+
+.bg-dark {
+  background-color: #343a40;
+}
+
+.text-white {
+  color: #FFD700; /* Warna kuning */
+}
+/* Testimonial Section Style */
+.testimonials-section {
+  background-color: #f8f9fa; /* Background color for the testimonial section */
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: #343a40; /* Text color for the section title */
+}
+
+.testimonial-carousel {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+  flex: 0 0 300px;
+  text-align: center;
+  margin-right: 30px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.user-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  color: #343a40; /* Text color for the author name */
+}
+
+/* Navigation Arrows */
+.carousel-arrow {
+  font-size: 24px;
+  cursor: pointer;
+  color: #343a40;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.carousel-arrow.left {
+  left: 10px;
+}
+
+.carousel-arrow.right {
+  right: 10px;
+}
+
+/* Updated CSS */
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+}
+
+.footer-heading {
+  font-size: 2rem; /* Larger font size for heading */
+}
+
+.footer-description {
+  font-size: 1.2rem; /* Font size for description */
+}
+
+.footer-contact {
+  font-size: 1rem; /* Font size for contact information */
+}
+
